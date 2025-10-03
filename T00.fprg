@@ -4,9 +4,9 @@
         <attribute name="name" value="T00"/>
         <attribute name="authors" value="miras"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-01 09:25:24 PM"/>
+        <attribute name="saved" value="2025-10-03 09:18:24 AM"/>
         <attribute name="created" value="bWlyYXM7TUlSQTsyMDI1LTEwLTAxOzA4OjM0OjIwIFBNOzIxMDk="/>
-        <attribute name="edited" value="bWlyYXM7TUlSQTsyMDI1LTEwLTAxOzA5OjI1OjI0IFBNOzI7MjIyMw=="/>
+        <attribute name="edited" value="bWlyYXM7TUlSQTsyMDI1LTEwLTAzOzA5OjE4OjI0IEFNOzM7MjIxMw=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -30,19 +30,18 @@
                     <output expression="&quot;Bilangan kedua: Ganjil&quot;" newline="True"/>
                 </else>
             </if>
+            <if expression="a=b">
+                <then>
+                    <output expression="&quot;Kedua bilangan sama besar&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
             <if expression="a&gt;b">
                 <then>
                     <output expression="&quot;Bilangan pertama lebih besar&quot;" newline="True"/>
                 </then>
                 <else>
-                    <if expression="a&lt;b">
-                        <then>
-                            <output expression="&quot;Bilangan kedua lebih besar&quot;" newline="True"/>
-                        </then>
-                        <else>
-                            <output expression="&quot;kedua bilangan sama besar&quot;" newline="True"/>
-                        </else>
-                    </if>
+                    <output expression="&quot;Bilangan kedua lebih besar&quot;" newline="True"/>
                 </else>
             </if>
             <if expression="a mod 2 == 0 and b mod 2 == 0">
