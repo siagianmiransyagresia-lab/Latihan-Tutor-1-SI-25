@@ -19,14 +19,13 @@ public class T00 {
         } else {
             System.out.println("Bilangan kedua: Ganjil");
         }
+        if (a == b) {
+            System.out.println("Kedua bilangan sama besar");
+        }
         if (a > b) {
             System.out.println("Bilangan pertama lebih besar");
         } else {
-            if (a < b) {
-                System.out.println("Bilangan kedua lebih besar");
-            } else {
-                System.out.println("kedua bilangan sama besar");
-            }
+            System.out.println("Bilangan kedua lebih besar");
         }
         if (a % 2 == 0 && b % 2 == 0) {
             hasil = a + b;
@@ -41,3 +40,4 @@ public class T00 {
         }
     }
 }
+
